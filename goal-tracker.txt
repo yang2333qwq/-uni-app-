@@ -1,0 +1,23 @@
+goal-tracker-uni/
+├─ components/                # 组件目录
+│  ├─ add-goal-modal/         # 添加目标弹窗组件
+│  │  ├─ add-goal-modal.vue
+│  ├─ goal-card/              # 目标卡片组件
+│  │  ├─ goal-card.vue
+│  ├─ subgoal-item/           # 子目标项组件
+│  │  ├─ subgoal-item.vue
+├─ api/                       # API请求目录
+│  ├─ goal.js                 # 目标相关API
+├─ utils/                     # 工具函数目录
+│  ├─ index.js                # 日期、存储、提示工具
+├─ pages/                     # 页面目录
+│  ├─ index/                  # 首页
+│  │  ├─ index.vue
+├─ static/                    # 静态资源目录
+│  ├─ empty.png               # 空状态图片（可自行替换）
+├─ src/                       # 补充目录（若需）
+│  ├─ shims-vue.d.ts          # 类型声明文件
+├─ pages.json                 # uni-app页面配置
+├─ manifest.json              # uni-app项目配置（可通过HBuilderX生成）
+├─ tsconfig.json              # TypeScript配置（若用TS）
+├─ package.json               # 项目依赖配置
